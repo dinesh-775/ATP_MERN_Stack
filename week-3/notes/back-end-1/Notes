@@ -1,0 +1,16 @@
+//creating package.json
+npm init -y 
+write the above command in cmp to generate json package
+
+//create HTTP server
+1. Install & import  "express" module
+    npm Install express
+2. Import express module
+3. Create HTTP server
+4. Assign port number by using listen
+
+// HTTP Req types
+    GET -> Read resource
+    POST -> Create a new resource
+    PUT -> Update
+    Delete -> 

@@ -1,0 +1,71 @@
+### Read All Users
+GET http://localhost:4000/user-api/users
+
+### Read user by Id
+GET http://localhost:4000/user-api/users/697dbcec1340a906d2d5599f
+
+### Create User
+POST  http://localhost:4000/user-api/users
+Content-Type: application/json
+
+{
+    "username":"Dinesh",
+    "password":"dinesh@123",
+    "age":20
+}
+
+###
+PUT  http://localhost:4000/user-api/users/697dbcec1340a906d2d5599f
+Content-Type: application/json
+
+{
+    "username":"shiva",
+    "password":"shiva@123",
+    "age":21
+}
+
+### Delete user by id
+
+DELETE  http://localhost:4000/user-api/users/697dbcec1340a906d2d5599f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Read all Products
+GET http://localhost:4000/product-api/products
+
+### Create Product
+
+POST http://localhost:4000/product-api/products
+Content-Type: application/json
+
+{
+    "productname":"chessboard",
+    "price":500
+}
+
+### Get Product by id
+GET http://localhost:4000/product-api/products/697dd0b2ac058b76d4e31915
+
+
+### Update user by id
+PUT http://localhost:4000/product-api/products/697dd0b2ac058b76d4e31915
+Content-Type: application/json
+
+{
+    "productname":"Laptop",
+    "price":60000
+}
+
